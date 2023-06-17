@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Restaurant Menu</title>
+
+        <!--font for site title-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&display=swap" rel="stylesheet">
+
+        <!--font for rest of menu-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+        <!--font for stuff at top of the page-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="./style.css">
+        <script src="./index.js" charset="utf-8" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+        <script src="/cartTemplate.js" charset="utf-8" defer></script>
+    </head>
+    <body>
+        <header class="header">
+            <div class="header-image-container">
+                <img src="./benny.jpg" width="150px" height="150px" alt="Benny logo">
+            </div>
+
+            <h1 class="site-title">Benny's Restaurant</h1>
+            <p class="delivery">Order here or delivery:(458)-420-6969</p>
+            <p class="socials">Check out our socials!<br>Ig:@BennytheBeaver</p>
+        </header>
+
+        {{{body}}}
+        
+    </body>
+</html>

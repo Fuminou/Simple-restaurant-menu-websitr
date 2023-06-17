@@ -1,0 +1,303 @@
+.header{
+    height: 140px;
+}
+
+.header-image-container{
+    background-color: white;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.site-title{
+    position: relative;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    bottom: 150px;
+    font-size: 100px;
+    font-weight: 100;
+    margin: 0 0 0 20px;
+  }
+
+.delivery{
+    position: relative;
+    bottom: 280px;
+    left: 170px;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+}
+
+.socials{
+    position: relative;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    bottom: 300px;
+    left: 170px;
+}
+
+.menu-option-contents{
+    margin-top: 10px;    
+    background-color: orange;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.menu-time{
+    font-size: 30px;
+}
+
+.menu-button {
+    padding: 16px 42px;
+    box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.5);
+    line-height: 1.25;
+    background: #FC6E51;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.menu-button:hover{
+    background-color: #f9d2b2;
+    border-color: #333;
+    color: #333;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cart-button,.modal-button{
+    padding: 16px 42px;
+    box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.5);
+    line-height: 1.25;
+    background: black;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.cart-button,.modal-button:hover{
+    background-color: white;
+    border-color: #333;
+    color: #333;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.breakfast-menu h2{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 20px;
+}
+
+.item-background{
+    background-color: #f9d2b2;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.food-image{
+    width: 250px;
+    height: 200px;
+}
+
+.food-info-background{
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 230px;
+    height: 200px;
+}
+
+.menu-items{
+    padding: 10px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f9d2b2;
+    justify-content: center;
+}
+
+.lunch-menu h2{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 20px;
+}
+
+.dinner-menu h2{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 20px;
+}
+
+.specials-menu h2{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 20px;
+}
+
+.hidden{
+    display: none;
+}
+
+.modal-header h3{
+    font-size: 50px;
+}
+
+#modal-backdrop{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+#customer-cart-modal{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1010;
+    overflow: scroll;
+}
+
+.modal-dialog {
+    width: auto;
+    max-width: 600px;
+    min-width: 350px;
+    min-height: 800px;
+    margin: 40px auto;
+    background-color: #f9d2b2;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+
+.modal-header{
+    position: relative;
+    width: 250px;
+    text-align: center;
+    height: 80px;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: white;
+    left: 170px;
+    padding: 10px;
+}
+
+.modal-header h3{
+    position: relative;
+    bottom: 40px;
+}
+
+.modal-footer {
+    position: relative;
+    left: 780px;
+    bottom: 40px;
+}
+
+.error-container {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.error-container h2 {
+    font-size: 128px;
+    margin-top: 50px;
+    margin-bottom: 0;
+ }
+
+
+.error-container h3 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.modal-button{
+    position: relative;
+    left: 0px;
+}
+
+.cart-item{
+    position: relative;
+    left: 170px;
+}
+
+.remove-button{
+    position: relative;
+    left: 80px;
+    width: 100px;    
+    height: 30px;
+    background-color: black;
+    border-color: #333;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add-button{
+    padding: 16px 42px;
+    box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.5);
+    text-decoration: none;
+    line-height: 1.25;
+    background-color: white;
+    border-color: #333;
+    color: #333;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: relative;
+    left: 25px;
+    top: 5px;
+    overflow: hidden;
+}
+
+.add-button:hover{
+    background: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.clear-button,.cart-button{
+    padding: 16px 42px;
+    box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.5);
+    text-decoration: none;
+    line-height: 1.25;
+    background-color: white;
+    border-color: #333;
+    color: #333;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+}
+
+.clear-button:hover,.cart-button:hover{
+    background: black;
+    color: white;
+    border-radius: 5px;
+}
